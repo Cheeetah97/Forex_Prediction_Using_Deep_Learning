@@ -1,4 +1,4 @@
-#### Forex_Prediction_Using_Deep_Learning
+### Forex_Prediction_Using_Deep_Learning
 <p align='justify'>
 In this repo we establish and compare three different AI models: <strong> LSTM </strong>, <strong> LGBM </strong>, <strong> INFORMER </strong> and two 
 different data modelling techniques: <strong> Forex Modelling </strong> and <strong> Forex Return Modelling </strong>. The dataset we used comprised of the hourly forex data of four key 
