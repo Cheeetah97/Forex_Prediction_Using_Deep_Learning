@@ -4,7 +4,7 @@ In this repo we establish and compare three different AI models: <strong>LSTM</s
 different data modelling techniques: <strong>Forex Modelling</strong>strong> and <strong>Forex Return Modelling</strong>strong>. The dataset we used comprised of the hourly forex data of four key 
 exchange rates: <strong>GBP/USD, EUR/GBP, EUR/USD, and XAU/USD</strong>strong>. Our experimental results highlight the stochastic nature of markets which poses a 
 challenge to state of the art models in achieving reliable predictions.
-
+</p>
 Data preprocessing played a pivotal role in empowering the models by removing large swings and 
 allowing them capture the underlying patterns and relationships present in the data. Feature 
 Engineering, on the other hand, had a negative impact on the performance of the models as the best 
@@ -50,4 +50,3 @@ profit graphs looked like as depicted in Fig.9.
 </p>
 
 This repo also contains the implementation of Additive Attention layer and a Custom Loss Function.
-</p>
