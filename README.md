@@ -32,7 +32,8 @@ of return, in the context of financial forecasting, is considered as a naïve fo
 Similarly in Table 3, we compared the Directional Accuracy Scores of each Model.
 
 <p align="center" width="75%">
-    <img width="75%" src="https://github.com/Cheeetah97/Forex_Prediction_Using_Deep_Learning/assets/62606459/bc72cb6f-3e49-4072-bcbf-94585755df03"> 
+    <img width="75%" src="![image](https://github.com/Cheeetah97/Forex_Prediction_Using_Deep_Learning/assets/62606459/5456db90-070b-499a-8827-ae7f08b207fd)
+"> 
 </p>
 
 We further demonstrated the performance of the models by evaluating them in a simulated trading environment. We used the predictions of the best performing 
