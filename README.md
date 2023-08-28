@@ -10,7 +10,7 @@ allowing them capture the underlying patterns and relationships present in the d
 Engineering, on the other hand, had a negative impact on the performance of the models as the best 
 results were achieved with just the exchange rates and their returns as inputs.
 
-<p align="center" width="50%">
+<p align="center" width="100%">
     <img width="33%" src="https://github.com/Cheeetah97/Forex_Prediction_Using_Deep_Learning/assets/62606459/ff9db2ec-1071-4c15-a4f8-db1274c1557e"> 
 </p>
 
