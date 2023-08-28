@@ -31,7 +31,9 @@ of return, in the context of financial forecasting, is considered as a naïve fo
 
 Similarly in Table 3, we compared the Directional Accuracy Scores of each Model.
 
-![image](https://github.com/Cheeetah97/Forex_Prediction_Using_Deep_Learning/assets/62606459/bc72cb6f-3e49-4072-bcbf-94585755df03)
+<p align="center" width="75%">
+    <img width="75%" src="https://github.com/Cheeetah97/Forex_Prediction_Using_Deep_Learning/assets/62606459/bc72cb6f-3e49-4072-bcbf-94585755df03"> 
+</p>
 
 We further demonstrated the performance of the models by evaluating them in a simulated trading environment. We used the predictions of the best performing 
 model i.e., LGBM and created a trading strategy. The trading strategy was implemented on each exchange rate for each one of the five test portions. It used 
@@ -43,7 +45,8 @@ We began by investing a base amount of 20,000 units of the base currency on an h
 the specified test portions. If we consider a minimum transaction cost of 1 unit of the base currency per trade, the cumulative 
 profit graphs looked like as depicted in Fig.9.
 
-![Cumulative Profits2](https://github.com/Cheeetah97/Forex_Prediction_Using_Deep_Learning/assets/62606459/078a0233-3a98-40e2-9746-429f796cf6fb)
-
+<p align="center" width="75%">
+    <img width="75%" src="https://github.com/Cheeetah97/Forex_Prediction_Using_Deep_Learning/assets/62606459/078a0233-3a98-40e2-9746-429f796cf6fb"> 
+</p>
 
 This repo also contains the implementation of Additive Attention layer and a Custom Loss Function.
