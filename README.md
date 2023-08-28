@@ -1,10 +1,9 @@
 # Forex_Prediction_Using_Deep_Learning
 <p align='justify'>
-In this repo we establish and compare three different AI models: <strong>LSTM</strong>strong>, **LGBM**, **Informer** and two 
-different data modelling techniques: **Forex Modelling** and **Forex Return Modelling**. The dataset we used comprised of the hourly forex data of four key 
-exchange rates: **GBP/USD, EUR/GBP, EUR/USD, and XAU/USD**. Our experimental results highlight the stochastic nature of markets which poses a 
+In this repo we establish and compare three different AI models: <strong>LSTM</strong>strong>, <strong>LGBM</strong>strong>, <strong>INFORMER</strong>strong> and two 
+different data modelling techniques: <strong>Forex Modelling</strong>strong> and <strong>Forex Return Modelling</strong>strong>. The dataset we used comprised of the hourly forex data of four key 
+exchange rates: <strong>GBP/USD, EUR/GBP, EUR/USD, and XAU/USD</strong>strong>. Our experimental results highlight the stochastic nature of markets which poses a 
 challenge to state of the art models in achieving reliable predictions.
-</p>
 
 Data preprocessing played a pivotal role in empowering the models by removing large swings and 
 allowing them capture the underlying patterns and relationships present in the data. Feature 
@@ -51,3 +50,4 @@ profit graphs looked like as depicted in Fig.9.
 </p>
 
 This repo also contains the implementation of Additive Attention layer and a Custom Loss Function.
+</p>
