@@ -83,7 +83,7 @@ def RNN(window_size,n_cols,n_neurons,n_layers,activation,loss,optimizer):
         # Inputs
         inputs= tf.keras.Input(shape=(window_size,n_cols))
 
-        # GRU Layers
+        # Lstm Layers
         l_1 = tf.keras.layers.LSTM(int(n_neurons),activation=activation,return_sequences=True)
         l_1_outputs = l_1(inputs)
         l_1_outputs = tf.keras.layers.Dropout(0.5)(l_1_outputs)
@@ -107,7 +107,7 @@ def RNN(window_size,n_cols,n_neurons,n_layers,activation,loss,optimizer):
         # Inputs
         inputs= tf.keras.Input(shape=(window_size,n_cols))
 
-        # GRU Layers
+        # Lstm Layers
         l_1 = tf.keras.layers.LSTM(int(n_neurons),activation=activation,return_sequences=True)
         l_1_outputs = l_1(inputs)
         l_1_outputs = tf.keras.layers.Dropout(0.5)(l_1_outputs)
@@ -134,7 +134,7 @@ def RNN(window_size,n_cols,n_neurons,n_layers,activation,loss,optimizer):
         # Inputs
         inputs= tf.keras.Input(shape=(window_size,n_cols))
 
-        # GRU Layers
+        # Lstm Layers
         l_1 = tf.keras.layers.LSTM(int(n_neurons),activation=activation,return_sequences=True)
         l_1_outputs = l_1(inputs)
         l_1_outputs = tf.keras.layers.Dropout(0.5)(l_1_outputs)
@@ -165,7 +165,7 @@ def RNN(window_size,n_cols,n_neurons,n_layers,activation,loss,optimizer):
         # Inputs
         inputs= tf.keras.Input(shape=(window_size,n_cols))
 
-        # GRU Layers
+        # Lstm Layers
         l_1 = tf.keras.layers.LSTM(int(n_neurons),activation=activation,return_sequences=True)
         l_1_outputs = l_1(inputs)
         l_1_outputs = tf.keras.layers.Dropout(0.5)(l_1_outputs)
@@ -200,7 +200,7 @@ def RNN(window_size,n_cols,n_neurons,n_layers,activation,loss,optimizer):
         # Inputs
         inputs= tf.keras.Input(shape=(window_size,n_cols))
 
-        # GRU Layers
+        # Lstm Layers
         l_1 = tf.keras.layers.LSTM(int(n_neurons),activation=activation,return_sequences=True)
         l_1_outputs = l_1(inputs)
         l_1_outputs = tf.keras.layers.Dropout(0.5)(l_1_outputs)
